@@ -117,8 +117,16 @@ def show_marks_graph():
 
     plt.show()
 
+# clears the data
+
+
+def clear_data():
+    students.clear()
+    print("All student data cleared.")
 
 # Grade distribution graph
+
+
 def grade_distribution_graph():
     grades = {"A": 0, "B": 0, "C": 0, "D": 0, "F": 0}
 
@@ -150,7 +158,8 @@ while True:
     print("6 Show Marks Graph")
     print("7 Grade Distribution Graph")
     print("8 Save Data")
-    print("9 Exit")
+    print("9 Clear Data")
+    print("10 Exit")
 
     choice = input("Enter choice: ")
 
@@ -179,6 +188,9 @@ while True:
         save_data()
 
     elif choice == "9":
+        clear_data()
+
+    elif choice == "10":
         print("Exiting program...")
         break
 
