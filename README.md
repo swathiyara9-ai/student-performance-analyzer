@@ -25,3 +25,10 @@ A Python program to analyze student marks and visualize performance using graphs
 
 2. Run the program
    python student_analyzer.py
+
+
+## Example Output
+
+![Marks Graph](graph1_output.png)
+
+![Grade Distribution Graph](graph2_output.png)
